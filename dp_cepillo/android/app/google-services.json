@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "792172319108",
+    "project_id": "dpcepillo",
+    "storage_bucket": "dpcepillo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792172319108:android:18e762a858f20bec4b0dd1",
+        "android_client_info": {
+          "package_name": "com.example.dp_cepillo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792172319108-qdhmtkns8rc7ojg1ggon4cioa4r7j68v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADFj_KYeV6TWGEUtQQS1wAQEEEUwxGvFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792172319108-qdhmtkns8rc7ojg1ggon4cioa4r7j68v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "792172319108-b3cl5maa3q25i6kvi0fbu1053ru0boe3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.dpCepillo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
