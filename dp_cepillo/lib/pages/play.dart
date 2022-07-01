@@ -143,7 +143,9 @@ class _PlayPageState extends State<PlayPage> {
                   Container(
                     height: height! * 0.2,
                     child: Lottie.network(
-                        'https://assets2.lottiefiles.com/packages/lf20_dcugqtlf.json'),
+                      'https://assets2.lottiefiles.com/packages/lf20_dcugqtlf.json',
+                      frameRate: FrameRate.max,
+                    ),
                   ),
                   toothbrushDetectedCounter > 1 &&
                           toothbrushMissingCounter <

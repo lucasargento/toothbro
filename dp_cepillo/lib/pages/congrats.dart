@@ -53,6 +53,7 @@ class _CongratsPageState extends State<CongratsPage> {
             ),
             Lottie.network(
                 'https://assets2.lottiefiles.com/packages/lf20_sZurBg.json',
+                frameRate: FrameRate.max,
                 fit: BoxFit.fill,
                 height: height! * 0.25),
           ],

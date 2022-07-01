@@ -54,9 +54,11 @@ class _CarePageState extends State<CarePage> {
             Lottie.network(
                 'https://assets10.lottiefiles.com/packages/lf20_P1hPKb.json',
                 fit: BoxFit.fill,
+                frameRate: FrameRate.max,
                 height: height! * 0.25),
             Lottie.network(
                 'https://assets6.lottiefiles.com/packages/lf20_DQyjhI.json',
+                frameRate: FrameRate.max,
                 fit: BoxFit.fill,
                 height: height! * 0.35),
           ],
