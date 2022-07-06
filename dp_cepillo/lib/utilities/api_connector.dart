@@ -28,7 +28,7 @@ class APIConnector {
     Future<bool> returnable =
         controller.takePicture().then((XFile? file) async {
       try {
-        var url = Uri.parse('http://0.0.0.0:8000/object-to-json');
+        var url = Uri.parse('http://dpcepillo.herokuapp.com/object-to-json');
         var imgPath = file!.path;
         http.Response imageResponse = await http.get(
           Uri.parse(imgPath),
