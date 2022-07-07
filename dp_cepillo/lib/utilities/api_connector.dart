@@ -37,7 +37,7 @@ class APIConnector {
         var response = await http.post(
           url,
           body: {'file': bytes},
-          //headers: {"Access-Control-Allow-Origin": "*"},
+          //headers: {"Access-Control-Allow-Origin": "*"},!!
         );
         print(response.body);
         print("hay un cepillo? ${decide(response)}");
