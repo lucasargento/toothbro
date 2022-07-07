@@ -100,4 +100,4 @@ watchgod==0.7
     # via uvicorn
 websockets==10.0
     # via uvicorn
-simpy
+sympy
