@@ -26,6 +26,10 @@ origins = [
     "http://localhost:8000",
     "http://localhost:58359",
     "https://dpcepillo.web.app/",
+    "https://dpcepillo.web.app",
+    "https://dpcepillo.web.app/#/",
+    "https://dpcepillo.web.app/#/play",
+    "Access-Control-Allow-Origin",
     "*"
 ]
 

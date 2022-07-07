@@ -28,15 +28,17 @@ class APIConnector {
     Future<bool> returnable =
         controller.takePicture().then((XFile? file) async {
       try {
-        var url = Uri.parse('http://dpcepillo.herokuapp.com/object-to-json');
+        var url = Uri.parse('https://dpcepillo.herokuapp.com/object-to-json');
         var imgPath = file!.path;
         http.Response imageResponse = await http.get(
           Uri.parse(imgPath),
         );
         var bytes = base64.encode(imageResponse.bodyBytes);
-        var response = await http.post(url,
-            body: {'file': bytes},
-            headers: {"Access-Control-Allow-Origin": "*"});
+        var response = await http.post(
+          url,
+          body: {'file': bytes},
+          //headers: {"Access-Control-Allow-Origin": "*"},
+        );
         print(response.body);
         print("hay un cepillo? ${decide(response)}");
         bool detected = decide(response);

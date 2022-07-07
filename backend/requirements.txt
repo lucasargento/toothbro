@@ -30,7 +30,7 @@ matplotlib==3.4.3
     # via
     #   -r requirements.in
     #   seaborn
-numpy
+numpy==1.21.2
     # via
     #   matplotlib
     #   opencv-python-headless
@@ -100,3 +100,4 @@ watchgod==0.7
     # via uvicorn
 websockets==10.0
     # via uvicorn
+simpy
